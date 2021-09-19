@@ -1,0 +1,310 @@
+.banner {
+    min-height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner__left {
+    display: flex;
+    align-items: center;
+}
+.banner__title {
+    font-family: Roboto,Sans-Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    /* or 39px */
+
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    max-width: 709px;
+}
+.banner__arrow {
+    padding-left: 25px;
+    padding-right: 10px;
+}
+.banner__right {
+    background: rgba(249, 249, 249, 0.8);
+    padding: 25px 25px 5px;
+    max-width: 304px;
+}
+.banner__price {
+    font-family: Roboto, Sans-Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #000000;
+    padding-bottom: 15px;
+}
+.banner__right .btn {
+    width: 100%;
+    font-family: Roboto, Sans-Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.banner__info {
+    padding-top: 10px;
+    font-family: Roboto, Sans-Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 150%;
+    /* or 27px */
+
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.course {
+    padding-top: 55px;
+}
+
+.sidebar__item {
+    margin-bottom: 25px;
+    width: 100%;
+    background: #F6F7FA;
+    padding: 25px 20px;
+}
+.sidebar__title {
+    font-family: Roboto, Sans-Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #000000;
+    margin: 0;
+    padding: 0 0 10px;
+}
+.sidebar__small {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 100%;
+    /* or 8px */
+
+    letter-spacing: 0.12em;
+    text-transform: lowercase;
+    margin: 0;
+    padding-top: 12px;
+}
+
+.course__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.course__right {
+    max-width: 294px;
+    margin-left: 30px;
+    width: 100%;
+}
+.sidebar__subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #000000;
+    margin: 0;
+    padding: 6px 0 18px;
+}
+.sidebar__item .sidebar__subtitle:last-child {
+    padding-bottom: 0;
+}
+.sidebar__subtitle a {
+    color: #000;
+}
+.sidebar__item img {
+    max-width: 100%;
+    vertical-align: top;
+    width: 100%;
+}
+.sidebar__info {
+    margin: 0;
+    font-family: Roboto, Sans-Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+.sidebar__info span {
+    color: #9A100B;
+}
+.course__img img {
+    vertical-align: top;
+    width: 100%;
+}
+
+.course__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #959595;
+    padding-bottom: 25px;
+    padding-top: 65px;
+}
+.course__head {
+    font-family: Roboto, Sans-Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+
+    letter-spacing: 0.12em;
+
+    color: #000000;
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.course__head.active {
+    background-image: url(./img/active.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 15px auto;
+}
+.course__left {
+    width: 100%;
+}
+.course__desc {
+    display: none;
+}
+.course__content h2, .course__desc h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.course__content, .course__desc {
+    font-family: Roboto, Sans-Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 24px */
+
+    letter-spacing: 0.12em;
+
+    color: #000000;
+}
+.course__treners {
+    padding-top: 72px;
+    font-family: Roboto, Sans-Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 100%;
+    /* identical to box height, or 30px */
+
+    letter-spacing: 0.12em;
+
+    color: #000000;
+
+}
+.trener {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.trener__item {
+    display: flex;
+    width: 90%;
+    max-width: 320px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.trener__image img {
+    width: 120px;
+    height: 120px;
+    vertical-align: top;
+}
+.trener__text {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 9px;
+}
+.trener__text h4 {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Sans-Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    /* or 16px */
+
+    letter-spacing: 0.12em;
+
+    color: #000000;
+}
+.trener__text p {
+    margin: 0;
+    font-family: Roboto, Sans-Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100%;
+    /* or 16px */
+
+    letter-spacing: 0.12em;
+
+    color: #000000;
+    max-width: 175px;
+
+}
+.middle_form {
+    background: linear-gradient(89.82deg, #9A100B 1.73%, #730202 60.89%, #9A100B 100.49%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 55px 0 10px;
+}
+@media screen and (max-width: 768px) {
+    .banner__wrapper {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .banner__arrow {
+        display: none;
+    }
+}
