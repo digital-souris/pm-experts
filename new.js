@@ -12,4 +12,8 @@ $(document).ready(function () {
         $('.course__head').removeClass('active')
         $(this).addClass('active')
     })
+    $('.faq__head').click(function () {
+        $(this).toggleClass('active')
+        $(this).parent().find('.faq__content').slideToggle()
+    })
 })

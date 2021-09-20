@@ -294,17 +294,214 @@
     max-width: 175px;
 
 }
-.middle_form {
+.course__form {
+    margin-top: 75px;
     background: linear-gradient(89.82deg, #9A100B 1.73%, #730202 60.89%, #9A100B 100.49%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 55px 0 10px;
+    padding: 55px 0 25px;
 }
+.course__part {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.part__title {
+    font-family: Roboto,Sans-Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 100%;
+    /* identical to box height, or 30px */
+
+    letter-spacing: 0.12em;
+
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0 0 30px;
+
+}
+.part__text {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    max-width: 528px;
+    color: #FFFFFF;
+}
+.part__prices {
+    text-align: right;
+}
+.part__price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 100%;
+    /* identical to box height, or 30px */
+
+    letter-spacing: 0.12em;
+
+    color: #FFFFFF;
+}
+.part__oldprice {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+
+    letter-spacing: 0.12em;
+    text-decoration-line: line-through;
+
+    color: #FFFFFF;
+}
+.part__button {
+    background-color: #008746 !important;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.faq {
+    margin-top: 65px;
+    margin-bottom: 65px;
+    padding: 30px 40px;
+    background: #F6F7FA;
+}
+.faq__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 100%;
+    /* identical to box height, or 30px */
+
+    letter-spacing: 0.12em;
+
+    color: #000000;
+    padding: 0 0 25px;
+    margin: 0;
+}
+.faq__head {
+    cursor: pointer;
+}
+.faq__item {
+    padding-bottom: 20px;
+}
+.faq__head svg {
+    margin-right: 10px;
+    vertical-align: middle;
+    transition: all .25s;
+}
+.faq__head span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    letter-spacing: 0.12em;
+
+    color: #000000;
+}
+.faq__head.active svg {
+    transform: rotate(90deg);
+}
+.faq__content {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    display: none;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 24px */
+
+    letter-spacing: 0.12em;
+
+    color: #000000;
+
+}
+@media screen and (max-width: 1170px) {
+    .buttons-course .btn-lg {
+        padding: 10px;
+    }
+    .course__head {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .course__wrapper {
+        flex-direction: column;
+    }
+    .course__right {
+        margin-left: 0;
+        padding-top: 40px;
+        max-width: 100%;
+    }
+    .sidebar__item {
+        max-width: 300px;
+
+    }
+    .sidebar {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 100%;
+    }
+    .course__part {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .part__left {
+        padding-bottom: 20px;
+    }
+    .part__prices {
+        text-align: left;
+        padding-bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 768px) {
+    .course__header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .course__head {
+        padding-bottom: 25px;
+        padding-left: 0;
+        font-size: 20px;
+    }
+    .course__head.active {
+        background-image: none;
+    }
+    .course__content {
+        display: none;
+    }
     .banner__wrapper {
         flex-direction: column;
         padding-bottom: 20px;
     }
     .banner__arrow {
         display: none;
+    }
+    .sidebar__item_populars {
+        max-width: 100%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .trener {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .trener__item {
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sidebar {
+        justify-content: center;
     }
 }
